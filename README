@@ -1,14 +1,20 @@
-1. run the script create_database_tables.py
-2. run the script populate_csv.py (this takes time to read csv and fill the database tables)
-3. command to run the app
-uvicorn app.main:app --reload
-to run on specified port  - uvicorn app.main:app --reload --port 8080
-4. Hit the endpoint you see in the server log on the console
+# FastAPI Bank & Branch API
+This is a simple FastAPI-based application that provides an API to fetch bank details and branch information using IFSC codes. The application is connected to a SQLite database, which is populated from a CSV file containing bank and branch details.
 
-new
-1. Run the script app/utils/set_up_db.py
-2. Run the script app/utils/populate_csv.py (this takes time to read csv and fill the database tables)
-3. Command to run the app:
-   uvicorn app.main:app --reload
-   To run on specified port: uvicorn app.main:app --reload --port 8080
-4. Hit the endpoint you see in the server log on the console
+## Overview
+This project provides a RESTful API to access data about banks and branches in India. The database is populated from a CSV file, and the API provides endpoints to get:
+- A list of all banks.
+- Branch details using an IFSC code.
+The app uses the FastAPI framework for the backend and SQLAlchemy for database management.
+
+## Features
+
+- List the key features of your project.
+- For example:
+  - **GET /banks**: Fetches a list of all banks.
+  - **GET /branches/{ifsc}**: Fetches branch details using the IFSC code.
+
+### Dependencies
+To install the required dependencies, run:
+```bash
+pip install -r requirements.txt
