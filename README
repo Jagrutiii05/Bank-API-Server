@@ -1,0 +1,14 @@
+1. run the script create_database_tables.py
+2. run the script populate_csv.py (this takes time to read csv and fill the database tables)
+3. command to run the app
+uvicorn app.main:app --reload
+to run on specified port  - uvicorn app.main:app --reload --port 8080
+4. Hit the endpoint you see in the server log on the console
+
+new
+1. Run the script app/utils/set_up_db.py
+2. Run the script app/utils/populate_csv.py (this takes time to read csv and fill the database tables)
+3. Command to run the app:
+   uvicorn app.main:app --reload
+   To run on specified port: uvicorn app.main:app --reload --port 8080
+4. Hit the endpoint you see in the server log on the console
