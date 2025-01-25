@@ -18,3 +18,10 @@ The app uses the FastAPI framework for the backend and SQLAlchemy for database m
 To install the required dependencies, run:
 ```bash
 pip install -r requirements.txt
+
+### Run the Application
+
+To start the FastAPI app, run the `run.py` script:
+
+```bash
+python run.py
