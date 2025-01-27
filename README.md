@@ -18,3 +18,5 @@ To start the FastAPI app, run the `run.py` script:
 ```bash
 python run.py
 ```
+
+Time taken to complete this assignment: 3 hours
