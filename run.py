@@ -1,4 +1,3 @@
-# all commands combined
 import os
 import subprocess
 from app.main import app
@@ -16,7 +15,8 @@ if __name__ == "__main__":
         # Step 3: Run the server
         print("Starting the server...")
         import uvicorn
-        uvicorn.run(app, host="127.0.0.1", port=8000)
+        port = int(os.getenv("PORT", 8000))
+        uvicorn.run(app, host="0.0.0.0", port=port)
     except subprocess.CalledProcessError as e:
         print(f"An error occurred while running a command: {e}")
     except Exception as e:
