@@ -8,9 +8,6 @@ This project provides a RESTful API to access data about banks and branches in I
 The app uses the FastAPI framework for the backend and SQLAlchemy for database management.
 
 ## Features
-
-- List the key features of your project.
-- For example:
   - **GET /banks**: Fetches a list of all banks.
   - **GET /branches/{ifsc}**: Fetches branch details using the IFSC code.
 
