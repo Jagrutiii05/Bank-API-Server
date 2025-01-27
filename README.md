@@ -19,4 +19,4 @@ To start the FastAPI app, run the `run.py` script:
 python run.py
 ```
 
-Time taken to complete this assignment: 3 hours
+Time taken to complete the task: 3 hours
