@@ -11,12 +11,6 @@ The app uses the FastAPI framework for the backend and SQLAlchemy for database m
   - **GET /banks**: Fetches a list of all banks.
   - **GET /branches/{ifsc}**: Fetches branch details using the IFSC code.
 
-### Dependencies
-To install the required dependencies, run:
-```bash
-pip install -r requirements.txt
-```
-
 ### Run the Application
 
 To start the FastAPI app, run the `run.py` script:
